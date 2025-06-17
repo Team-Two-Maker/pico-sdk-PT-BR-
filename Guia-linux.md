@@ -258,3 +258,54 @@ _imagem aqui_
 Ainda na barra de pesquisa, procure por **Generator** e preencha com **NMake Makefiles** igual a imagem abaixo:
 
 _imagem aqui_
+
+## 5 º passo: Adicionar Usuário ao Grupo dialout
+
+Para carregar os códigos na placa através da Extensão do Raspberry PI Pico no Visual Studio Code, é necessário ainda adicionar o seu usuário ao grupo dialout, para que o sistema operacional reconheça a placa e consiga carregar o código sem precisar da senha do administrador.
+
+Para isso, abra o terminal e insira o seguinte comando:
+
+```
+sudo usermod -aG dialout $USER
+```
+
+Após dar enter, **reinicie** o computador.
+
+Agora vamos configurar o sistema para reconhecer a placa, abra o terminal e digite os seguintes comandos:
+
+```
+sudo nano /etc/udev/rules.d/99-pico.rules
+```
+
+Após dar Enter sua senha será solicitada, digite e aparecerá uma tela
+semelhante a essa:
+
+_imagem aqui_
+
+Insira a linha de comando:
+
+```
+SUBSYSTEM=="usb", ATTRS{idVendor}=="2e8a", MODE="0666"
+```
+
+Pressione as teclas **Ctrl + X** para iniciar a operação de salvar, depois
+digite **Y** (ou **S**, dependendo do idioma do sistema) para confirmar a
+alteração, e por fim, pressione **Enter** para salvar e sair.
+
+Quando finalizar a operação, abra o terminal e digite:
+
+```
+sudo udevadm control --reload-rules
+```
+
+Depois:
+
+```
+sudo udevadm trigger
+```
+
+Após finalizar todas as etapas reinicie novamente o seu computador para salvar todas as configurações que foram feitas. Pronto! Agora seu ambiente Linux está completamente configurado e pronto para utilizar o Raspberry PI PICO na placa BitDogLab.
+
+# Conclusão
+
+Estamos certos de que, com o auxílio deste manual, você terá todas as ferramentas necessárias para configurar o ambiente de programação no Ubuntu e explorar as possibilidades da Raspberry Pi Pico W.
