@@ -280,7 +280,7 @@ sudo nano /etc/udev/rules.d/99-pico.rules
 Após dar Enter sua senha será solicitada, digite e aparecerá uma tela
 semelhante a essa:
 
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/parte%20critica.png "parte crítica")
 
 Insira a linha de comando:
 
