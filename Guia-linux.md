@@ -133,7 +133,7 @@ entrar na sua pasta pico-sdk com os comandos cd. Depois que
 estiver na pasta do pico-sdk, digite o comando pwd e copie o
 caminho.
 
-Ex.: _imagem aqui_
+Ex.: ![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/caminho.png "caminho para a pasta")
 
 Após copiar o caminho volte para a pasta raiz:
 
@@ -204,37 +204,37 @@ Primeiramente, acesse a loja de aplicativos do Ubuntu, depois digite na barra de
 
 EX:
 
-_imagem aqui_
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/vscode.png "instalação do vscode")
 
 Após instalar o Visual Studio Code, abra a IDE e acesse a campo de extensões presente no canto esquerdo da tela.
 
-_imagem aqui_
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/extens%C3%B5es.png "extensões")
 
-Na barra de pesquisa, busque por C/C++ Extension Pack e faça a instalação da extensão.
+Na barra de pesquisa, busque por **C/C++ Extension Pack** e faça a instalação da extensão.
 
-_imagem aqui_
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/c_C%2B%2B%20extensoes.png "extensão c/c++")
 
 Essa extensão fará a instalação de todas as extensões necessárias para a configuração, como a CMake, CMake Tools, C/C++, etc.
 
-Faça também a instalação da Extensão Raspberry Pi Pico, é através dela que vamos criar, compilar e executar nossos projetos.
+Faça também a instalação da Extensão **Raspberry Pi Pico**, é através dela que vamos criar, compilar e executar nossos projetos.
 
-_imagem aqui_
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/extensao%20raspberry.png "extensão pico-sdk")
 
 Caso ainda não apareça no seu campo de extensões, também faça a instalação da Extensão Serial Monitor:
 
-_imagem aqui_
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/serial%20monitor%20extensao.png "extensão monitor serial")
 
 Agora que temos nossas extensões, é hora de configurar a extensão CMake Tools corretamente. Para isso, vá até o campo de extensões e procure pela extensão CMake Tools e selecione o ícone de engrenagem.
 
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 Selecione a opção de configurações:
 
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 Na barra de pesquisas, procure por **Configure Environment**, depois configure o item como **PICO_SDK_PATH** e o valor como o caminho para essa pasta como no exemplo abaixo:
 
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 Para encontrar o caminho, você pode utilizar o seguinte atalho no terminal:
 
@@ -247,17 +247,17 @@ cd pico/pico-sdk
 Depois que estiver na pasta do pico-sdk, digite o comando `pwd` e copie o caminho.
 
 EX:
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 Feche o terminal e volte para o vscode para continuar com as configurações.
 
 Depois pesquise por **cmake path**, procure pelo campo abaixo e preencha com **cmake**:
 
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 Ainda na barra de pesquisa, procure por **Generator** e preencha com **NMake Makefiles** igual a imagem abaixo:
 
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 ## 5 º passo: Adicionar Usuário ao Grupo dialout
 
@@ -280,7 +280,7 @@ sudo nano /etc/udev/rules.d/99-pico.rules
 Após dar Enter sua senha será solicitada, digite e aparecerá uma tela
 semelhante a essa:
 
-_imagem aqui_
+![alt text]( "caminho para a pasta")
 
 Insira a linha de comando:
 
