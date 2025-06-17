@@ -117,8 +117,7 @@ caminhos para que o linux os reconheça na instalação.
 
 Procure o caminho para a pasta pico-sdk no seu dispositivo e copie.
 
-
-*Imagem aqui*
+_Imagem aqui_
 
 Digite no terminal:
 
@@ -127,14 +126,14 @@ export PICO_SDK_PATH=cole-o-caminho-aqui
 ```
 
 Obs: Copie o caminho para a pasta do pico-sdk do seu dispositivo
-e cole no lugar de “```cole-o-caminho-aqui```”
+e cole no lugar de “`cole-o-caminho-aqui`”
 
 Para encontrar o caminho da pasta, acesse com o terminal até
 entrar na sua pasta pico-sdk com os comandos cd. Depois que
 estiver na pasta do pico-sdk, digite o comando pwd e copie o
 caminho.
 
-Ex.: *imagem aqui*
+Ex.: _imagem aqui_
 
 Após copiar o caminho volte para a pasta raiz:
 
@@ -197,3 +196,65 @@ Por último, verifique se o picotool está configurado corretamente:
 picotool version
 ```
 
+## 4 º passo: Instalação do Visual Studio Code + Extensões
+
+Agora que já temos todos os arquivos necessários para executar o projeto, vamos instalar a IDE e também as Extensões responsáveis por transformar nossos projetos na linguagem específica para a placa Raspberry PI PICO W.
+
+Primeiramente, acesse a loja de aplicativos do Ubuntu, depois digite na barra de pesquisas por Visual Studio Code e instale.
+
+EX:
+
+_imagem aqui_
+
+Após instalar o Visual Studio Code, abra a IDE e acesse a campo de extensões presente no canto esquerdo da tela.
+
+_imagem aqui_
+
+Na barra de pesquisa, busque por C/C++ Extension Pack e faça a instalação da extensão.
+
+_imagem aqui_
+
+Essa extensão fará a instalação de todas as extensões necessárias para a configuração, como a CMake, CMake Tools, C/C++, etc.
+
+Faça também a instalação da Extensão Raspberry Pi Pico, é através dela que vamos criar, compilar e executar nossos projetos.
+
+_imagem aqui_
+
+Caso ainda não apareça no seu campo de extensões, também faça a instalação da Extensão Serial Monitor:
+
+_imagem aqui_
+
+Agora que temos nossas extensões, é hora de configurar a extensão CMake Tools corretamente. Para isso, vá até o campo de extensões e procure pela extensão CMake Tools e selecione o ícone de engrenagem.
+
+_imagem aqui_
+
+Selecione a opção de configurações:
+
+_imagem aqui_
+
+Na barra de pesquisas, procure por **Configure Environment**, depois configure o item como **PICO_SDK_PATH** e o valor como o caminho para essa pasta como no exemplo abaixo:
+
+_imagem aqui_
+
+Para encontrar o caminho, você pode utilizar o seguinte atalho no terminal:
+
+Abra o terminal, selecione a pasta novamente com o comando _cd_:
+
+```
+cd pico/pico-sdk
+```
+
+Depois que estiver na pasta do pico-sdk, digite o comando `pwd` e copie o caminho.
+
+EX:
+_imagem aqui_
+
+Feche o terminal e volte para o vscode para continuar com as configurações.
+
+Depois pesquise por **cmake path**, procure pelo campo abaixo e preencha com **cmake**:
+
+_imagem aqui_
+
+Ainda na barra de pesquisa, procure por **Generator** e preencha com **NMake Makefiles** igual a imagem abaixo:
+
+_imagem aqui_
