@@ -207,7 +207,7 @@ Agora que já temos todos os arquivos necessários para executar o projeto, vamo
 
 Primeiramente, acesse a loja de aplicativos do Ubuntu, depois digite na barra de pesquisas por Visual Studio Code e instale.
 
-EX:
+EX: <br>
 
 ![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/vscode.png "instalação do vscode")
 
