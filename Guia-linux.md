@@ -1,5 +1,10 @@
 # Preparando o ambiente de programação
 
+## Requisitos mínimos
+
+- Ubuntu versão 24.04
+- Python versão 3.10
+
 ## 1º passo: Instalação do Git
 
 A instalação do git é necessária para clonar o repositório do pico-sdk
