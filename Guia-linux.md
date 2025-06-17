@@ -117,7 +117,7 @@ caminhos para que o linux os reconheça na instalação.
 
 Procure o caminho para a pasta pico-sdk no seu dispositivo e copie.
 
-_Imagem aqui_
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/caminho%20pastas.png "caminho para a pasta pico-sdk")
 
 Digite no terminal:
 
