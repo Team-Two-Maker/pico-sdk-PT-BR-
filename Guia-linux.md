@@ -224,17 +224,17 @@ Caso ainda não apareça no seu campo de extensões, também faça a instalaçã
 
 ![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/serial%20monitor%20extensao.png "extensão monitor serial")
 
-Agora que temos nossas extensões, é hora de configurar a extensão CMake Tools corretamente. Para isso, vá até o campo de extensões e procure pela extensão CMake Tools e selecione o ícone de engrenagem.
+Agora que temos nossas extensões, é hora de configurar a extensão **CMake Tools** corretamente. Para isso, vá até o campo de extensões e procure pela extensão CMake Tools e selecione o ícone de engrenagem.
 
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/cmake%20tools%20extensao.png "configuração cmake tools")
 
 Selecione a opção de configurações:
 
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/cmake%20tools%20extensao%20grande.png "configuração cmake tools")
 
 Na barra de pesquisas, procure por **Configure Environment**, depois configure o item como **PICO_SDK_PATH** e o valor como o caminho para essa pasta como no exemplo abaixo:
 
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/configure%20environments.png "configure environment")
 
 Para encontrar o caminho, você pode utilizar o seguinte atalho no terminal:
 
@@ -247,17 +247,17 @@ cd pico/pico-sdk
 Depois que estiver na pasta do pico-sdk, digite o comando `pwd` e copie o caminho.
 
 EX:
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/caminho.png "pegar caminho")
 
 Feche o terminal e volte para o vscode para continuar com as configurações.
 
 Depois pesquise por **cmake path**, procure pelo campo abaixo e preencha com **cmake**:
 
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/cmake%20path.png "cmake path")
 
 Ainda na barra de pesquisa, procure por **Generator** e preencha com **NMake Makefiles** igual a imagem abaixo:
 
-![alt text]( "caminho para a pasta")
+![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/generator.png "generator")
 
 ## 5 º passo: Adicionar Usuário ao Grupo dialout
 
