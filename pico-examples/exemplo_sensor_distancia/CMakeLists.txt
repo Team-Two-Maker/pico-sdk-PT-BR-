@@ -46,7 +46,9 @@ pico_enable_stdio_usb(exemplo_sensor_distancia 1)
 
 # Add the standard library to the build
 target_link_libraries(exemplo_sensor_distancia
-        pico_stdlib)
+        pico_stdlib,
+        hardware_pwm
+        )
 
 # Add the standard include files to the build
 target_include_directories(exemplo_sensor_distancia PRIVATE
