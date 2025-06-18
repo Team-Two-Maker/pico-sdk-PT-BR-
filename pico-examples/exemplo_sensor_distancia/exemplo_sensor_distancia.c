@@ -66,5 +66,5 @@ int main() {
         printf("Distancia: %.2f cm\n", distancia);
         sleep_ms(500);
     }
-
+    return 0;
 }
