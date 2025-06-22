@@ -1,23 +1,23 @@
 <<<<<<< Updated upstream
 # Raspberry Pi Pico SDK
 
-***O Raspberry Pi Pico SDK (a partir daqui SDK) provê os cabeçalhos, bibliotecas e um sistema de bulding necessário para escrever programas para dispositivos baseados em microcontroladores da série RP, assim como o Raspberry Pi Pico ou Raspberry Pi pico 2 em C, C++ ou em linguagem assembly.***
+***O Raspberry Pi Pico SDK (daqui em diante SDK) fornece os cabeçalhos, bibliotecas e o sistema de construção necessários para escrever programas para dispositivos baseados em microcontroladores da série RP, como o Raspberry Pi Pico ou Raspberry Pi pico 2, utilizando as liguagens C, C++ ou em linguagem assembly.***
 
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
 necessary to write programs for the RP-series microcontroller-based devices such as the Raspberry Pi Pico or Raspberry Pi Pico 2
 in C, C++ or assembly language.
 
-***O SDK é desenhado para prover uma API e ambiente de programação que é familiar tanto para os desenvolvedores de sistemas embarcados em C quanto para os outros desenvolvedores em C. Um único programa roda em um dispositivo por vez e começa com um método `main()` convencional. As bibliotecas padrão em C/C++ são compatíveis, assim como as bibliotecas e APIs de baixo nível em C para acessar todos o hardware dos microcontroladores da série RP incluindo PIO(IO Programada).***
+***O SDK é projetado para oferecer uma API e um ambiente de programação que sejam  familiares tanto para os desenvolvedores de sistemas embarcados em C quanto para desenvolvedores de C no geral. Um único programa é executado em um dispositivo por vez e começa com um método `main()` convencional. As bibliotecas padrão em C/C++ são compatíveis, assim como as bibliotecas e APIs de baixo nível em C para acessar todo o hardware dos microcontroladores da série RP, incluindo PIO(IO Programável).***
 
 The SDK is designed to provide an API and programming environment that is familiar both to non-embedded C developers and embedded C developers alike.
 A single program runs on the device at a time and starts with a conventional `main()` method. Standard C/C++ libraries are supported along with
 C-level libraries/APIs for accessing all of the RP-series microcontroller's hardware including PIO (Programmable IO).
 
-***Adicionalmente, o SDK disponibiliza bibliotecas de alto nível para lidar com temporizadores, sincronzação, Wi-Fi e conexão Bluetooth, USB e programação multinúcleo. Essas bibliotecas devem ser compreeensivas o suficiente para que sua aplicação raramente, somente se for o caso, precise acessar os registradores do hardware diretamente. Entretanto, se você precisar ou preferir acessar os registradores de hardware puro, você também vai achar cabeçalhos de definição de registros completos e totalmente comentado no SDK. Não precisa procurar por isso no datasheet.***
+***Além disso, o SDK disponibiliza bibliotecas de alto nível para lidar com temporizadores, sincronzação, conectividade Wi-Fi e Bluetooth, USB e programação multinúcleo. Essas bibliotecas são abrangentes o suficiente para que o código da sua aplicação raramente, somente se for o caso, precise acessar os registradores do hardware diretamente. Entretanto, se você precisar ou preferir acessar os registradores de hardware diretamente. No entanto, se você precisar ou preferir acessar os registradores de hardware de forma direta, você encontrará também cabeçalhos de definição de registradores completos e totalmente comentados no SDK, sem a necessidade de consultar o datasheet.***
 
 Additionally, the SDK provides higher level libraries for dealing with timers, synchronization, Wi-Fi and Bluetooth networking, USB and multicore programming. These libraries should be comprehensive enough that your application code rarely, if at all, needs to access hardware registers directly. However, if you do need or prefer to access the raw hardware registers, you will also find complete and fully-commented register definition headers in the SDK. There's no need to look up addresses in the datasheet.
 
-***O SDK pode ser usado para criar qualquer coisa desde simples aplicações, ambientes de execução completos como o MicroPython, até softwares de baixo nível, como o prórpio bootrom on-chip do microcontrolador da série RP.***
+***O SDK pode ser utilizado para criar desde aplicações simples, ambientes de execução completos como o MicroPython, até softwares de baixo nível, como o prórpio bootrom on-chip do microcontrolador da série RP.***
 
 The SDK can be used to build anything from simple applications, fully-fledged runtime environments such as MicroPython, to low level software
 such as the RP-series microcontroller's on-chip bootrom itself.
@@ -26,7 +26,7 @@ such as the RP-series microcontroller's on-chip bootrom itself.
 
 The design goal for entire SDK is to be simple but powerful.
 
-***Bibliotecas/API adicionais que ainda não estão prontas para inclusão no SDK podem ser encontradas em [pico-extras](https://github.com/raspberrypi/pico-extras).***
+***Bibliotecas/API adicionais que ainda não estão prontas para inclusão no SDK podem ser encontradas no repositório [pico-extras](https://github.com/raspberrypi/pico-extras).***
 
 Additional libraries/APIs that are not yet ready for inclusion in the SDK can be found in [pico-extras](https://github.com/raspberrypi/pico-extras).
 
@@ -39,7 +39,7 @@ Additional libraries/APIs that are not yet ready for inclusion in the SDK can be
 See [Getting Started with the Raspberry Pi Pico-Series](https://rptl.io/pico-get-started) for information on how to setup your
 hardware, IDE/environment and how to build and debug software for the Raspberry Pi Pico and other RP-series microcontroller based devices.
 
-***Consulte [Conectando-se à Internet com o Raspberry Pi Pico W](https://rptl.io/picow-connect) para saber mais sobre como escrever aplicativos para seu Raspberry Pi Pico W que conectam a internet***
+***Consulte [Conectando-se à Internet com o Raspberry Pi Pico W](https://rptl.io/picow-connect) para saber mais sobre como escrever aplicativos para seu Raspberry Pi Pico W que conectam à internet***
 
 See [Connecting to the Internet with Raspberry Pi Pico W](https://rptl.io/picow-connect) to learn more about writing
 applications for your Raspberry Pi Pico W that connect to the internet.
@@ -57,7 +57,7 @@ See [Online Raspberry Pi Pico SDK API docs](https://rptl.io/pico-doxygen) for HT
 
 # Example code
 
-***Veja [pico-examples](https://github.com/raspberrypi/pico-examples) para exemplos de código que você pode criar***
+***Veja [pico-examples](https://github.com/raspberrypi/pico-examples) para exemplos de código que você pode compilar***
 
 See [pico-examples](https://github.com/raspberrypi/pico-examples) for example code you can build.
 
@@ -65,7 +65,7 @@ See [pico-examples](https://github.com/raspberrypi/pico-examples) for example co
 
 # Getting the latest SDK code
 
-***A ramificação [master](https://github.com/raspberrypi/pico-sdk/tree/master/) do `pico-sdk` no GitHub contém a _versão estável mais recente_ do SDK. Se precisar ou quiser testar recursos futuos, você pode experimentar a ramificação [develop](https://github.com/raspberrypi/pico-sdk/tree/develop/)***
+***A ramificação [master](https://github.com/raspberrypi/pico-sdk/tree/master/) do `pico-sdk` no GitHub contém a _versão mais estável recente_ do SDK. Se precisar ou quiser testar recursos futuros, você pode experimentar a ramificação [develop](https://github.com/raspberrypi/pico-sdk/tree/develop/)***
 
 The [master](https://github.com/raspberrypi/pico-sdk/tree/master/) branch of `pico-sdk` on GitHub contains the 
 _latest stable release_ of the SDK. If you need or want to test upcoming features, you can try the
@@ -87,7 +87,7 @@ You can install the [Raspberry Pi Pico Visual Studio Code extension](https://mar
 
 ## Unix command line
 
-***Essas instruções são extremamente concisas e baseada apenas em Linux. Para etapas detalhadas, instruções para outras plataformas e informações gerais, recomendamos que você consulte [o SDK C/C++ da série Raspberry Pi Pico](https://rptl.io/pico-c-sdk)***
+***Essas instruções são extremamente concisas e baseadas apenas em Linux. Para etapas detalhadas, instruções para outras plataformas e informações gerais, recomendamos que você consulte [o SDK C/C++ da série Raspberry Pi Pico](https://rptl.io/pico-c-sdk)***
 
 These instructions are extremely terse, and Linux-based only. For detailed steps,
 instructions for other platforms, and just in general, we recommend you see [Raspberry Pi Pico-Series C/C++ SDK](https://rptl.io/pico-c-sdk)
