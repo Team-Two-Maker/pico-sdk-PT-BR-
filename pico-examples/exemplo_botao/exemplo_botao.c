@@ -2,10 +2,8 @@
 #include "pico/stdlib.h"
 
 #define vermelho 11
-#define verde 12
-#define azul 13
 
-#define btn 2
+#define btn 10
 
 
 int main() {
@@ -13,16 +11,10 @@ int main() {
 
   gpio_init(vermelho);
   gpio_set_dir(vermelho, GPIO_OUT);
-  
-  gpio_init(verde);
-  gpio_set_dir(verde, GPIO_OUT);  
-  
-  gpio_init(azul);
-  gpio_set_dir(azul, GPIO_OUT);
 
   gpio_init(btn);
   gpio_set_dir(btn, GPIO_IN);
-  gpio_pull_up(btn);
+  gpio_pull_down(btn);
 
 
   while (true) {
