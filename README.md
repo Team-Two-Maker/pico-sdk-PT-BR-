@@ -14,7 +14,7 @@ The design goal for entire SDK is to be simple but powerful.
 
 Bibliotecas/API adicionais que ainda não estão prontas para inclusão no SDK podem ser encontradas no repositório [pico-extras](https://github.com/raspberrypi/pico-extras).
 
-# ***Documentação***
+# Documentação
 
 Consulte [Instrodução ao Raspberry Pi Pico-Series](https://rptl.io/pico-get-started) para obter informações sobre como configurar seu hardware, IDE/ambiente e como criar e depurar software para a Raspberry Pi Pico e outros dispositivos baseados em microcontroladores da série RP.
 
