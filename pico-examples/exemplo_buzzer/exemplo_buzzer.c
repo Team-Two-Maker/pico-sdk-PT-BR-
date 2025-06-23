@@ -42,6 +42,9 @@ int main() {
         play_note(buzzer, NOTE_C5);
         sleep_ms(500);
         stop_buzzer(buzzer);
+    }else{
+        stop_buzzer(buzzer);
+        sleep_ms(500);
     }
   }
 }
