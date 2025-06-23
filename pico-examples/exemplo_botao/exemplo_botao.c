@@ -21,7 +21,7 @@ int main() {
   gpio_set_dir(azul, GPIO_OUT);
 
   gpio_init(btn);
-  gpio_set_dir(btn, 2);
+  gpio_set_dir(btn, GPIO_IN);
   gpio_pull_up(btn);
 
 
