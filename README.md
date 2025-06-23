@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # Raspberry Pi Pico SDK
 
 O Raspberry Pi Pico SDK (daqui em diante SDK) fornece os cabeçalhos, bibliotecas e o sistema de construção necessários para escrever programas para dispositivos baseados em microcontroladores da série RP, como o Raspberry Pi Pico ou Raspberry Pi pico 2, utilizando as liguagens C, C++ ou em linguagem assembly.
