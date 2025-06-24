@@ -6,7 +6,7 @@
 - Botão 10;
 
 ### Funcionamento:
-- Ao acionar o botão o Led vermelho acende
+- Ao precionar o botão o Led vermelho acende
 
 ### Circuito:
 ![alt text](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/img/circuito_botao.png "circuito do projeto")
