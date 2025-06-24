@@ -1,5 +1,9 @@
 # Exemplo utilizando um LED RGB
 
+### Link:
+
+[Link do vídeo](https://youtu.be/PObMIn__Fww?si=b0FXtcvc9rBPambe)
+
 ### Pinos:
 
 - LED vermelho: 11;
