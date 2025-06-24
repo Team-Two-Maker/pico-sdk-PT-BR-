@@ -1,5 +1,9 @@
 # Exemplo utilizando Botão e Led RGB
 
+### Link:
+
+[Link do vídeo](https://youtu.be/JLB9l3Ef65Q?si=KiSNagSQnEwEwvAj)
+
 ### Pinos:
 
 - LED vermelho: 11;
