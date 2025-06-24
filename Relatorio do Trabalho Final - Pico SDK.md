@@ -5,7 +5,8 @@
 
 ## Realizar Tradução
 
-- Tradução do README do github;
+- Tradução do README do Repositório Oficial;
+- Referência: [Repositório Oficial do Pico-SDK](https://github.com/raspberrypi/pico-sdk) 
 - [Link do README](https://github.com/Team-Two-Maker/pico-sdk-PT-BR-/blob/main/README.md)
 
 ## Produção de Conteúdo Audiovisual ou Série de Posts
