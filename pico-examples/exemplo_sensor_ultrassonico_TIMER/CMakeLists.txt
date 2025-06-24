@@ -23,37 +23,43 @@ if (EXISTS ${picoVscode})
     include(${picoVscode})
 endif()
 # ====================================================================================
-set(PICO_BOARD pico CACHE STRING "Board type")
+set(PICO_BOARD pico_w CACHE STRING "Board type")
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(exemplo_sensor_distancia C CXX ASM)
+project(exemplo_sensor_ultrassonico_TIMER C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(exemplo_sensor_distancia exemplo_sensor_distancia.c )
+add_executable(exemplo_sensor_ultrassonico_TIMER exemplo_sensor_ultrassonico_TIMER.c )
 
-pico_set_program_name(exemplo_sensor_distancia "exemplo_sensor_distancia")
-pico_set_program_version(exemplo_sensor_distancia "0.1")
+pico_set_program_name(exemplo_sensor_ultrassonico_TIMER "exemplo_sensor_ultrassonico_TIMER")
+pico_set_program_version(exemplo_sensor_ultrassonico_TIMER "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(exemplo_sensor_distancia 0)
-pico_enable_stdio_usb(exemplo_sensor_distancia 1)
+pico_enable_stdio_uart(exemplo_sensor_ultrassonico_TIMER 0)
+pico_enable_stdio_usb(exemplo_sensor_ultrassonico_TIMER 1)
 
 # Add the standard library to the build
-target_link_libraries(exemplo_sensor_distancia
-        pico_stdlib,
-        hardware_pwm
+target_link_libraries(exemplo_sensor_ultrassonico_TIMER
+        pico_stdlib
+        hardware_gpio
+        hardware_timer
         )
 
 # Add the standard include files to the build
-target_include_directories(exemplo_sensor_distancia PRIVATE
+target_include_directories(exemplo_sensor_ultrassonico_TIMER PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
 )
 
-pico_add_extra_outputs(exemplo_sensor_distancia)
+# Add any user requested libraries
+target_link_libraries(exemplo_sensor_ultrassonico_TIMER 
+        
+        )
+
+pico_add_extra_outputs(exemplo_sensor_ultrassonico_TIMER)
 
