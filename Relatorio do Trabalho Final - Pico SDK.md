@@ -18,7 +18,9 @@
 
 - [Como utilizar um botão com Pico SDK para ligar um LED](https://youtu.be/JLB9l3Ef65Q)
 
-- Outro exemplo prático;
+- [Exemplos de Utilização de Sensores com PICO SDK - Parte 1 - Módulo Ultrassônico](https://youtu.be/VMRzj504SWU?si=lIBW5ZZphLOFKWYC)
+  
+- [Exemplos de Utilização de Sensores com PICO SDK - Parte 2 - Módulo LDR](https://youtu.be/R4W74Aiy1lw?si=QAXbi5T7TizjRUcU)
 
 ## Desenvolvimento de Script ou Ferramenta Auxiliar
 
