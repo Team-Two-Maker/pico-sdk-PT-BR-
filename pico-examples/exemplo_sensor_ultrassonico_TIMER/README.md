@@ -8,7 +8,14 @@ Este projeto mede a distância de objetos utilizando um sensor ultrassônico **H
 
 - O Raspberry Pi Pico W envia um pulso de **10 µs** ao pino TRIG do sensor HC-SR04.  
 - O sensor retorna um pulso no pino ECHO com duração proporcional à distância do objeto.  
-- O tempo é convertido em centímetros e exibido no terminal a cada **500 ms**.
+- A duração do pulso é medida em microssegundos e convertida em distância (cm) com a fórmula:
+  ```distância (cm) = (tempo_us * 0.0343) / 2```
+Onde:
+- `tempo_us` é o tempo de ida e volta do som em microssegundos.  
+- `0.0343` é a velocidade do som em cm/µs.  
+- A divisão por 2 é feita porque o som percorre o caminho de ida e volta.
+
+- O valor da distância é exibido no terminal a cada **500 ms**.
 
 ---
 
