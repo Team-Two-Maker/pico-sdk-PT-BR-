@@ -2,9 +2,7 @@
 
 ### Pinos:
 
-- LED vermelho: 2;
-- LED verde 3;
-- LED azul 4;
+- LED vermelho: 11;
 - Botão 10;
 
 ### Funcionamento:
