@@ -22,7 +22,7 @@ Com base na experiência adquirida ao longo do desenvolvimento, listamos abaixo 
 
 ### 3. Tradução de Exemplos Oficiais
 
-- Iniciar uma nova seção chamada `pico-examples-pt-br` com a **tradução dos comentários** dos códigos e arquivos `CMakeLists.txt` das seguintes pastas do repositório oficial `pico-examples`:
+- Atualizar o diretório `pico-examples` com a **tradução dos comentários** dos códigos e arquivos `CMakeLists.txt` das seguintes pastas do repositório oficial `pico-examples`:
   - `blink`
   - `pwm`
   - `uart`
@@ -37,6 +37,8 @@ Com base na experiência adquirida ao longo do desenvolvimento, listamos abaixo 
   - Display LCD
 
 Cada exemplo deve conter código funcional, bem comentado, além de instruções claras para a montagem dos circuitos.
+
+**OBS:** Circuitos podem ser feitos no site https://wokwi.com/
 
 ### Como colaborar:
 
