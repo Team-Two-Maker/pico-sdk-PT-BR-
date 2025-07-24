@@ -7,7 +7,36 @@ Pretendemos que o repositório continue sendo mantido de forma colaborativa, com
 Essa é a direção que buscamos para o Pico-SDK PT-BR: um repositório acessível, atualizado e útil para a comunidade de desenvolvedores de sistemas embarcados em língua portuguesa.
 
 ### Desafios propostos:
-- Colocar os desafios aqui (de 2 a 4)
+
+Com base na experiência adquirida ao longo do desenvolvimento, listamos abaixo alguns desafios que consideramos importantes para a próxima turma. Eles estão divididos em três áreas principais: produção de conteúdo, documentação e desenvolvimento técnico.
+
+### 1. Produção de Conteúdo Didático
+
+- Criar uma **playlist de vídeos tutoriais** cobrindo os seguintes tópicos:
+  - **Configuração do ambiente de desenvolvimento no Windows**: instalação das ferramentas necessárias, configuração de variáveis de ambiente e ajuste do `CMakeLists.txt`.
+  - **Criação de bibliotecas com o Pico-SDK**: explicar como modularizar o código e reaproveitar funcionalidades em diferentes projetos. Incluir exemplos práticos.
+
+### 2. Melhoria na Documentação
+
+- Criar uma **seção de erros comuns** no repositório (ou um site simples) explicando problemas frequentes enfrentados pelos usuários, como erros de compilação, falhas de configuração do ambiente e uso incorreto de bibliotecas, acompanhados de suas soluções.
+
+### 3. Tradução de Exemplos Oficiais
+
+- Iniciar uma nova seção chamada `pico-examples-pt-br` com a **tradução dos comentários** dos códigos e arquivos `CMakeLists.txt` das seguintes pastas do repositório oficial `pico-examples`:
+  - `blink`
+  - `pwm`
+  - `uart`
+  - `dma`
+
+### 4. Desenvolvimento de Novos Exemplos
+
+- Criar exemplos práticos de uso de **novos periféricos**, incluindo:
+  - Buzzer
+  - Servo motor
+  - Matriz de LEDs
+  - Display LCD
+
+Cada exemplo deve conter código funcional, bem comentado, além de instruções claras para a montagem dos circuitos.
 
 ### Como colaborar:
 
